@@ -70,4 +70,8 @@ span{
     display: block;
     margin: 1.5rem auto;
   }
+
+  .btn-primary{
+    margin-top: 8rem;
+  }
 }
