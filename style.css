@@ -8,24 +8,13 @@ h1{
   font-size: 4.5rem;
 }
 
+.first-page-name{
+  padding-bottom: 4rem;
+}
+
 .first-page-name a i{
   color: #000;
-  padding: 0 2rem 0 0;
-}
-
-.btn-primary{
-  background-color: #cc99cc;
-  border: purple;
-  color: white;
-  border-radius: 3px;
-  margin: 2rem auto;
-  display: block;
-  padding: 1rem 6rem;
-  font-size: 1.7rem;
-}
-
-.btn-primary:hover{
-  background-color: purple;
+  padding: 0 3rem 0 0;
 }
 
 .first-page-photo-gallery{
@@ -39,29 +28,38 @@ h1{
   margin: 4px;
 }
 
-ul li{
-  display: inline-block;
-  padding: 0 1rem;
-}
-
-ul{
-  margin: 3rem 0;
-}
-
-button a{
+.btn-primary a{
+  text-decoration: none;
   color: #FFF;
-  text-decoration: none;
+  font-size: 2rem;
 }
 
-button a:hover{
-  text-decoration: none;
-  color: #fff;
+span{
+  color: #F88379;
+  font-weight: bold;
 }
 
-button:hover{
-  text-decoration: none;
-  color: #fff;
-  transition: 1s;
+/*Contact Button*/
+
+.btn-primary{
+  background-color: #F88379;
+  border: purple;
+  color: white;
+  border-radius: 3px;
+  margin: 2rem auto;
+  display: block;
+  padding: 1.3rem 8rem;
+  font-size: 1.7rem;
+}
+
+
+.btn-primary:hover{
+  background-color: purple;
+}
+
+
+.first-page-name a i:hover{
+  color: #F88379;
 }
 
 
