@@ -1,0 +1,60 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFAF0;
+}
+
+h1{
+  padding-top: 1rem;
+}
+
+.first-page-name a i{
+  color: #000;
+  padding: 0 2rem 0 0;
+}
+
+.btn-primary{
+  background-color: #cc99cc;
+  border: purple;
+  color: white;
+  border-radius: 3px;
+  margin: 2rem auto;
+  display: block;
+  padding: 1rem 6rem;
+  font-size: 1.7rem;
+}
+
+.btn-primary:hover{
+  background-color: purple;
+}
+
+.first-page-photo-gallery img{
+  border: 2px solid black;
+  width: 240px;
+  height: 220px;
+  margin: 4px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+ul{
+  margin: 3rem 0;
+}
+
+button a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+button a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+button:hover{
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
