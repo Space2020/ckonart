@@ -5,6 +5,7 @@
 
 h1{
   padding-top: 1rem;
+  font-size: 4.5rem;
 }
 
 .first-page-name a i{
@@ -25,6 +26,10 @@ h1{
 
 .btn-primary:hover{
   background-color: purple;
+}
+
+.first-page-photo-gallery{
+  padding-bottom: 20rem;
 }
 
 .first-page-photo-gallery img{
@@ -57,4 +62,14 @@ button:hover{
   text-decoration: none;
   color: #fff;
   transition: 1s;
+}
+
+
+/* Media Quieries*/
+
+@media only screen and (max-width: 768px){
+  .first-page-photo-gallery img{
+    display: block;
+    margin: 1.5rem auto;
+  }
 }
