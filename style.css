@@ -4,12 +4,13 @@
 }
 
 h1{
-  padding-top: 1rem;
+  padding-top: 3rem;
   font-size: 4.5rem;
 }
 
 .first-page-name{
   padding-bottom: 4rem;
+  text-align: center;
 }
 
 .first-page-name a i{
@@ -17,20 +18,45 @@ h1{
   padding: 0 3rem 0 0;
 }
 
+.navigation .left{
+  text-align: left;
+}
+
+.navigation .right{
+  text-align: right;
+}
+
+.first-page-photo{
+  padding: 5rem;
+}
+
+.first-page-photo img{
+  border: 4px solid black;
+  max-width: 400px;
+  max-height: 380px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact i{
+  padding: 1rem 2rem;
+}
+
 .first-page-photo-gallery{
   padding-bottom: 20rem;
 }
 
-.first-page-photo-gallery img{
-  border: 2px solid black;
-  width: 240px;
-  height: 220px;
-  margin: 4px;
-}
 
-.btn-primary a{
+a .btn-primary{
   text-decoration: none;
   color: #FFF;
+  letter-spacing: .3rem;
   font-size: 2rem;
 }
 
@@ -66,12 +92,21 @@ span{
 /* Media Quieries*/
 
 @media only screen and (max-width: 768px){
-  .first-page-photo-gallery img{
+  .first-page-photo img{
     display: block;
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    margin-left: -15px;
   }
 
   .btn-primary{
     margin-top: 8rem;
+  }
+
+  .navigation .left{
+    text-align: center;
+  }
+
+  .navigation .right{
+    text-align: center;
   }
 }
