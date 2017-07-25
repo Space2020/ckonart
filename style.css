@@ -1,11 +1,19 @@
+/** UNIVERSAL **/
+
 *{
   font-family: 'Roboto', sans-serif;
   background-color: #FFFAF0;
 }
 
+
+
+
+/** HOME PAGE **/
+/* BRAND SECTION*/
+
 h1{
   padding-top: 3rem;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .first-page-name{
@@ -18,27 +26,48 @@ h1{
   padding: 0 3rem 0 0;
 }
 
+
+
+/** NAVIGATION SECTION **/
+
+.navigation a{
+  color: #000;
+}
+
+.navigation a:hover{
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
 .navigation .left{
-  text-align: left;
+  text-align: center;
 }
 
 .navigation .right{
-  text-align: right;
+  text-align: center;
 }
 
 .first-page-photo{
   padding: 1rem;
 }
 
+
+/** MAIN IMAGE **/
+
 .first-page-photo img{
   width: 500px;
-  height: 400px;
+  height: 340px;
   margin: 0 auto;
   display: block;
 }
 
+
+
+/** CONTACT/SOCIAL MEDIA **/
+
 .contact{
-  padding-top: 5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,45 +77,78 @@ h1{
   padding: 1rem 2rem;
 }
 
-.first-page-photo-gallery{
-  padding-bottom: 20rem;
-}
-
-
-a .btn-primary{
-  text-decoration: none;
-  color: #FFF;
-  letter-spacing: .3rem;
-  font-size: 2rem;
-}
-
-span{
-  color: #F88379;
-  font-weight: bold;
-}
-
 /*Contact Button*/
 
+
+.contact a i{
+  color: #000;
+}
+
+.contact a i:hover{
+  color: #F88379;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** SHOP PAGE **/
+
+.shop-page-photo-gallery{
+  padding: 4rem 0 3rem 0;
+}
+
+.shop-page-photo-gallery img{
+  width: 250px;
+  height: 220px;
+  margin: 1rem 0;
+}
+
 .btn-primary{
-  background-color: #F88379;
-  border: purple;
-  color: white;
-  border-radius: 3px;
-  margin: 2rem auto;
-  display: block;
-  padding: 1.3rem 8rem;
-  font-size: 1.7rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #FFFAF0;
+  color: #000;
+  border: 2px dotted #000;
+  margin-left: 1rem;
 }
 
 
 .btn-primary:hover{
-  background-color: purple;
-}
-
-
-.first-page-name a i:hover{
+  background-color: #FFFAF0;
   color: #F88379;
+  border: 2px dotted #F88379;
 }
+
+.for-purchase{
+  padding: 4rem 0 0 0;
+  font-size: 1.7rem;
+}
+
+.paintings{
+  margin-bottom: 2rem;
+}
+
+.paintings p{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
 
 
 /* Media Quieries*/
@@ -96,10 +158,6 @@ span{
     display: block;
     margin: 0 auto;
     margin-left: -15px;
-  }
-
-  .btn-primary{
-    margin-top: 8rem;
   }
 
   .navigation .left{
